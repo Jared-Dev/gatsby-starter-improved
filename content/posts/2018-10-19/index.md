@@ -4,6 +4,7 @@ cover: "../2018-10-16/speed.jpg"
 slug: "post-five"
 date: "2018-10-19"
 title: "Post Number Five"
+excerpt: "Post #5"
 tags: ['tutorial', 'javascript', 'frontend']
 published: true
 ---

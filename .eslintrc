@@ -9,7 +9,7 @@
     "strict": 0,
     "no-console": "warn",
     "quotes": [
-      "warn",
+      "error",
       "single"
     ],
     "no-unused-vars": [

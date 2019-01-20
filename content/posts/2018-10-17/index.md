@@ -4,6 +4,7 @@ cover: "./finance.jpg"
 slug: "post-three"
 date: "2018-10-17"
 title: "Post Number Three"
+excerpt: "Post #3"
 tags: ['gatsby', 'news', 'other']
 published: true
 ---

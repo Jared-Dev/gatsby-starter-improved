@@ -1,42 +1,24 @@
 <p align="center">
-  <a href="https://github.com/justinformentin/gatsby-v2-tutorial-starter">
+  <a href="https://github.com/Jared-Dev/gatsby-starter-improved">
     <img
       src="https://i.imgur.com/mW3HLrn.png"
       height="80"
-      alt="gatsby-v2-tutorial-starter"
-      title="Gatsby v2 Tutorial Starter"
+      alt="gatsby-starter-improved"
+      title="Gatsby Starter Improved"
     />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/justinformentin/gatsby-v2-tutorial-starter">
+  <a href="https://circleci.com/gh/Jared-Dev/gatsby-starter-improved">
     <img
-      src="https://circleci.com/gh/justinformentin/gatsby-v2-tutorial-starter.svg?style=svg"
+      src="https://circleci.com/gh/Jared-Dev/gatsby-starter-improved.svg?style=svg"
       alt="CircleCI"
     />
   </a>
-  <a href="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter">
+  <a href="https://david-dm.org/Jared-Dev/gatsby-starter-improved">
     <img
-      src="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter/badges/gpa.svg"
-      alt="Maintainability"
-    />
-  </a>
-  <a href="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter">
-    <img
-      src="https://codeclimate.com/github/justinformentin/gatsby-v2-tutorial-starter/badges/issue_count.svg"
-      alt="Issues"
-    />
-  </a>
-  <a href="https://www.codacy.com/app/justinformentin/gatsby-v2-tutorial-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=justinformentin/gatsby-v2-tutorial-starter&amp;utm_campaign=Badge_Grade">
-    <img
-      src="https://api.codacy.com/project/badge/Grade/c910ab2b18a24dde80cfc05b73c908aa"
-      alt="Code Quality"
-    />
-  </a>
-  <a href="https://david-dm.org/justinformentin/gatsby-v2-tutorial-starter">
-    <img
-      src="https://img.shields.io/david/justinformentin/gatsby-v2-tutorial-starter.svg"
+      src="https://img.shields.io/david/Jared-Dev/gatsby-starter-improved.svg"
       alt="Dependencies"
     />
   </a>
@@ -56,13 +38,7 @@
 
 <p align="center">
   <strong>
-    View the demo at <a href="https://gatsby-tutorial-starter.netlify.com">gatsby-tutorial-starter.netlify.com</a>.
-  </strong>
-</p>
-
-<p align="center">
-  <strong>
-    Read the full step by step guide: <a href="https://justinformentin.com/build-gatsby-site-full-tutorial">Guide to Build a Gatsby Site with Perfect Pagespeed Scores</a></a>.
+    View the demo at <a href="https://gatsby-starter-improved.netlify.com">gatsby-starter-improved.netlify.com</a>.
   </strong>
 </p>
 
@@ -95,7 +71,7 @@
 # Lighthouse Audit
 
 <p align="center">
-  <a href="https://github.com/justinformentin/gatsby-v2-tutorial-starter">
+  <a href="https://github.com/Jared-Dev/gatsby-starter-improved">
     <img
       src="https://i.imgur.com/YOVC76X.png"
       alt="Google Lighthouse Audit"
@@ -103,20 +79,23 @@
     />
   </a>
 </p>
+<p align="center">
+  Metrics may vary slightly, but should be near 100 for all metrics!
+</p>
 
 # Usage
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/justinformentin/gatsby-v2-tutorial-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jared-Dev/gatsby-starter-improved)
 
 ```bash
 Download project
 # With `gatsby-cli`
-gatsby new my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter
+gatsby new my-site https://github.com/Jared-Dev/gatsby-starter-improved
 
 OR
 
 # Cloning
-git clone my-site https://github.com/justinformentin/gatsby-v2-tutorial-starter.git
+git clone my-site https://github.com/Jared-Dev/gatsby-starter-improved.git
 cd my-site
 
 THEN

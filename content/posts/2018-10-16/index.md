@@ -4,6 +4,7 @@ cover: "./speed.jpg"
 slug: "post-two"
 date: "2018-10-16"
 title: "Post Number Two"
+excerpt: "Post #2"
 published: true
 tags: ['test', 'webpack', 'other']
 ---

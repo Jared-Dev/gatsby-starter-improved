@@ -1,7 +1,5 @@
-import BlogList from './BlogList';
-import Header from './Header';
-import PostList from './PostList';
-import SEO from './SEO';
-import TagsBlock from './TagsBlock';
-
-export { BlogList, Header, PostList, SEO, TagsBlock };
+export { default as BlogList } from './BlogList';
+export { default as Header } from './Header';
+export { default as PostList } from './PostList';
+export { default as SEO } from './SEO';
+export { default as TagsBlock } from './TagsBlock';

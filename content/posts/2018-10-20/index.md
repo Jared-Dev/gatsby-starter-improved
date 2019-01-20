@@ -4,6 +4,7 @@ cover: "../2018-10-17/finance.jpg"
 slug: "tutorial"
 date: "2018-10-20"
 title: "Tutorial Article"
+excerpt: "Follow this tutorial"
 tags: ['gatsby', 'tutorial']
 published: true
 ---

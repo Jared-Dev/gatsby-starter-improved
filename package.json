@@ -1,14 +1,17 @@
 {
-  "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
-  "title": "Gatsby V2 Tutorial Starter",
-  "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "name": "gatsby-starter-improved",
+  "author": "Jared Malcolm",
+  "title": "Gatsby Starter Improved",
+  "description": "My Blog - A Gatsby starter that was originally built by Justin Formentin.",
+  "homepage": "https://gatsby-starter-improved.netlify.com",
   "license": "MIT",
   "version": "0.0.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/Jared-Dev/gatsby-starter-improved"
+  },
+  "bugs": {
+    "url": "https://github.com/Jared-Dev/gatsby-starter-improved/issues"
   },
   "scripts": {
     "develop": "gatsby develop",
@@ -16,7 +19,9 @@
     "serve": "gatsby serve",
     "clean": "rm -rf public && rm -rf .cache",
     "format-output": "prettier src/**/*.{js,jsx}",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "npm run format:src && npm run format:config",
+    "format:src": "prettier --write src/**/*.{js,jsx}",
+    "format:config": "prettier --write config/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
     "start": "npm run develop"
@@ -40,7 +45,7 @@
     "gatsby-plugin-typography": "^2.2.5",
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-prismjs": "^3.2.0",
-    "gatsby-source-filesystem": "^2.0.13",
+    "gatsby-source-filesystem": "^2.0.16",
     "gatsby-transformer-remark": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.10",
     "prismjs": "^1.15.0",
@@ -50,27 +55,28 @@
     "react-headroom": "^2.2.4",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.18",
-    "typeface-candal": "0.0.54",
-    "typeface-open-sans": "0.0.54",
+    "typeface-inconsolata": "^0.0.54",
+    "typeface-montserrat": "^0.0.54",
+    "typeface-open-sans": "^0.0.54",
     "typography": "^0.16.18"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.12.0",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.5.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.3",
-    "lighthouse": "^3.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "lighthouse": "^4.0.0",
     "prettier": "^1.15.3"
   },
   "keywords": [
-    "justin formentin",
+    "jared malcolm",
+    "jareddev",
     "personal blog",
-    "tutorial",
     "gatsby",
-    "gatsby",
+    "markdown",
     "emotion"
   ]
 }

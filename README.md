@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/Jared-Dev/gatsby-starter-improved">
     <img
-      src="https://i.imgur.com/mW3HLrn.png"
+      src="https://raw.githubusercontent.com/Jared-Dev/gatsby-starter-improved/master/static/logo/banner.png"
       height="80"
       alt="gatsby-starter-improved"
       title="Gatsby Starter Improved"
